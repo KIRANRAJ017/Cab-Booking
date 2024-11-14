@@ -9,7 +9,7 @@ public class Customer {
         this.id=id;
         this.name=name;
         this.password=password;
-        trip = new ArrayList<Trip>();
+        trip = new ArrayList<>();
     }
     static class Trip{
         String src, dest;
