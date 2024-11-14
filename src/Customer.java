@@ -31,7 +31,6 @@ public class Customer {
         name=sc.next();
         System.out.println("Enter password: ");
         password=sc.next();
-        Customer cust = new Customer(id, name, password);
-        return cust;
+        return new Customer(id, name, password);
     }
 }

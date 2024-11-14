@@ -32,8 +32,7 @@ public class Cab {
         name=sc.next();
         System.out.println("Enter password: ");
         password=sc.next();
-        Cab cab = new Cab(id, name, password, null);
-        return cab;
+        return new Cab(id, name, password, null);
     }
     static void showCabLocations(){
         System.out.println("cab Id      Location");
